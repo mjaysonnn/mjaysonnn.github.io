@@ -35,12 +35,12 @@ var slideSmartHubotIndex = 1;
 function firstImageShow() {
 	var first = document.getElementsByClassName("first");
 	for (i = 0; i < first.length++; i++) {
-		first[i].style.display = "block";
+		first[i].style.display = "block"; 
 	}
 	autoShowSmartHubotSlides();
 	autoShowSmartMirrorSlides();
 }
-
+	
 setTimeout(firstImageShow, 100);
 
 function plusSmartMirrorSlides(n) {
@@ -50,8 +50,8 @@ function plusSmartMirrorSlides(n) {
 // Thumbnail image controls
 function currentSmartMirrorSlide(n) {
   showSlides("smart-mirror", slideSmartMirrorIndex = n);
-}
-
+}	
+	
 function plusSmartHubotSlides(n) {
   showSlides("smart-hubot", slideSmartHubotIndex += n);
 }
@@ -70,29 +70,29 @@ function showSlides(classname, n) {
   }else {
 	  slideIndex = slideSmartMirrorIndex;
   }
-  if (n > slides.length) {slideIndex = 1}
+  if (n > slides.length) {slideIndex = 1} 
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+      slides[i].style.display = "none"; 
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
+  slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }
-
+	
 function autoShowSmartHubotSlides() {
 	var i;
 	var slides = document.getElementsByClassName("smart-hubot");
 	var dots = document.getElementsByClassName("smart-hubot-dot");
 	for (i = 0; i < slides.length; i++) {
-	  slides[i].style.display = "none";
+	  slides[i].style.display = "none"; 
 	}
   	for (i = 0; i < dots.length; i++) {
 		dots[i].className = dots[i].className.replace(" active", "");
  	}
-	if (slideSmartHubotIndex > slides.length) {slideSmartHubotIndex = 1}
+	if (slideSmartHubotIndex > slides.length) {slideSmartHubotIndex = 1} 
 	slides[slideSmartHubotIndex-1].style.display = "block";
 	dots[slideSmartHubotIndex-1].className += " active";
 	slideSmartHubotIndex++;
@@ -104,25 +104,25 @@ function autoShowSmartMirrorSlides() {
 	var slides = document.getElementsByClassName("smart-mirror");
 	var dots = document.getElementsByClassName("smart-mirror-dot");
 	for (i = 0; i < slides.length; i++) {
-	  slides[i].style.display = "none";
+	  slides[i].style.display = "none"; 
 	}
   	for (i = 0; i < dots.length; i++) {
 		dots[i].className = dots[i].className.replace(" active", "");
  	}
-	if (slideSmartMirrorIndex > slides.length) {slideSmartMirrorIndex = 1}
+	if (slideSmartMirrorIndex > slides.length) {slideSmartMirrorIndex = 1} 
 	slides[slideSmartMirrorIndex-1].style.display = "block";
 	dots[slideSmartMirrorIndex-1].className += " active";
 	slideSmartMirrorIndex++;
 	setTimeout(autoShowSmartMirrorSlides, 3000); // Change image every 2.5 seconds
-}
-
+}	
+	
 </script></head>
 <body>
 	<main class="container">
 		<section class="about">
-			<img src="/assets/profile1.png" alt="Myunjun Son">
+			<img src="/assets/profile.png" alt="Myungjun Son">
 			<h2>Myungjun Son</h2>
-			<p class="tagline">Research Assistant</p>
+			<p class="tagline">Research Assistant.</p>
 			<ul class="social">
 				<a href="https://github.com/mjaysonnn"><li><i class="icon-github-circled"></i></li></a>
 				<a href="https://www.linkedin.com/in/mjs8612"><li><i class="icon-linkedin-squared"></i></li></a>
@@ -131,15 +131,14 @@ function autoShowSmartMirrorSlides() {
 			+1 814-826-5993
 			<p></p>
 			<i class="material-icons">email</i>
-			mjson dot psu.edu
+			mjson@psu.edu
 			<p>&copy; 2019</p>
 		</section>
 		<section class="content">
-
+			
 <ul class="posts"><li>
 		<h2 class="post-title">Myungjun Son</h2>
-		<p>He is a research assistant in the Computer Science and Engineering Department at the Pennsylvania State University. <br>
-			His research interests involve cloud computing, serverless computing, bigdata platforms and large-scale distributed computing resource manangement. <a href="/assets/cv/MyungjunSon-CV.pdf">CV</a>
+		<p>He is a Research Assistant in the Computer Science and Engineering Department at the Pennsylvania State University. His research interests involve cloud computing, serverless computing, bigdata platforms and large-scale distributed computing resource manangement. <a href="/assets/cv/MyungjunSon-CV.pdf">CV</a>
 		<hr>
 
 		<h3 class="post-title">Recent News</h3>
@@ -155,7 +154,7 @@ function autoShowSmartMirrorSlides() {
 			<li>Ph.D.'s in Computer Science : Sep 2019 - Present</li>
 		</ul>
 		<br>
-			Kookmin University
+			Kookmin University, Seoul
 		<ul>
 			<li>Master's in Computer Science : March 2017 - August 2019</li>
 			<li>Bachelor's in Computer Science : March 2010 - February 2017</li>
@@ -163,7 +162,7 @@ function autoShowSmartMirrorSlides() {
 
 		<h3>Research</h3>
 
-			Currently, He is a member of <a href='https://mdl.cse.psu.edu/'>Microsystems Design Lab</a> group working under the direction of <a href='http://www.cse.psu.edu/hpcl/kandemir/'>Dr. Mahmut T. Kandemir</a>
+			Currently, He is a member of <a href='https://mdl.cse.psu.edu/'>Microsystems Design Lab</a> group woring under the direction of <a href='http://www.cse.psu.edu/hpcl/kandemir/'>Dr. Mahmut T. Kandemir</a>
 
 			<p>In the past, He worked under the direction of <a href='http://leeky.me/'>Dr. Kyungyong Lee</a> in the <a href='http://bigdata.cs.kookmin.ac.kr/'>BigData</a> lab.</p>
 		<ul>
