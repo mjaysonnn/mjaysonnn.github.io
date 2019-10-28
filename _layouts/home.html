@@ -1,0 +1,137 @@
+---
+layout: default
+---
+
+{%- if page.title -%}
+<h1 class="page-heading">{{ page.title }}</h1>
+{%- endif -%}
+
+{{ content }}
+
+{%- if site.posts.size > 0 -%}
+<ul class="posts">
+	{%- for post in site.posts -%}
+	<li>
+		<h2 class="post-title">Myungjun Son</h2>
+		<p>He is a Research Assistant in the Computer Science and Engineering Department at the Pennsylvania State University. His research interests involve cloud computing, serverless computing, bigdata platforms and large-scale distributed computing resource manangement. <a href="{{ "/assets/cv/MyungjunSon-CV.pdf"}}">CV</a>
+		<hr>
+
+		<h3 class="post-title">Recent News</h3>
+		<ul>
+			<li><u class="bold">10/2019</u> - MPEC: Distributed Matrix Multiplication Performance Modeling on a Scale-out Cloud Environment for Data Mining Jobs has been accepted on Transactions on Cloud Computing!</li>
+			<li><u class="bold">09/2019</u> - Started RA in The Penn State! </li>
+		</ul>
+		<hr>
+
+		<h3>Education</h3>
+			The Pennsylvania State University, University Park
+		<ul>
+			<li>Ph.D.'s in Computer Science : Sep 2019 - Present</li>
+		</ul>
+		<br>
+			Kookmin University, Seoul
+		<ul>
+			<li>Master's in Computer Science : March 2017 - August 2019</li>
+			<li>Bachelor's in Computer Science : March 2010 - February 2017</li>
+		</ul>
+
+		<h3>Research</h3>
+
+			Currently, He is a member of <a href='https://mdl.cse.psu.edu/'>Microsystems Design Lab</a> group woring under the direction of <a href='http://www.cse.psu.edu/hpcl/kandemir/'>Dr. Mahmut T. Kandemir</a>
+
+			<p>In the past, He worked under the direction of <a href='http://leeky.me/'>Dr. Kyungyong Lee</a> in the <a href='http://bigdata.cs.kookmin.ac.kr/'>BigData</a> lab.</p>
+		<ul>
+			<li>ABC2: Autonomic BigData Cloud Computing research project, 2017-2019</li>
+			<ul>
+				<li>Build autonomic cloud computing service that handles complex infrastructure configurations</li>
+				<li>Provide optimal kernel layer to utilize in a wide range of big-data processing applications</li>
+				<li>Implemented system that predicts latency of matrix multiplication of arbitrary shapes and sizes using various cloud computing resource configurations</li>
+			</ul>
+
+			<li>DeepSpotCloud , 2017-2018</li>
+			<ul>
+				<li>Use cloud computing service to build cost-efficient and scalable big-data
+				analytics platform</li>
+				<li>Implemented system of DeepSpotCloud utilizing EC2 GPU spot instances
+				to build cost-efficient, deep learning framework</li>
+			</ul>
+
+
+		</ul>
+
+		<h3>Publications</h3>
+		<ul>
+			<li><u class="bold">IEEE ToCC 2019 </u> - Jeongchul Kim, <u class="bold">Myungjun Son</u>, Kyungyong Lee, “Modeling Distributed Matrix Multiplication Performance on a Scale-out Cloud Environment for Data Mining Jobs,” IEEE Transactions on Cloud Computing <a href="{{ "/assets/paper/IEEE_ToCC_2019.pdf" | relative_url }}"> [PDF]</a></li>
+			<br>
+			<li><u class="bold">IEEE CLOUD 2018</u> - <u class="bold">Myungjun Son</u> and Kyungyong Lee, “Distributed Matrix Multiplication Performance Estimator for Machine Learning Jobs in Cloud Computing,” 2018 IEEE 11th International Conference on Cloud Computing (CLOUD) <a href="{{ "/assets/paper/cloud_2018.pdf" | relative_url }}">[PDF]</a></li>
+			<br>
+			<li><u class="bold">IEEE CLOUD 2017</u> - Kyungyong Lee and <u class="bold">Myungjun Son</u>, “DeepSpotCloud: Leveraging Cross-Region GPU Spot Instances for Deep Learning,” 2017 IEEE 10th International Conference on Cloud Computing (CLOUD) <a href="{{ "/assets/paper/deep-spot-cloud.pdf" | relative_url }}">[PDF]</a></li>
+			<br>
+
+		</ul>
+
+		<h3>Talks</h3>
+		<ul>
+			<li>“Distributed Matrix Multiplication Performance Estimator for Machine Learning Jobs in Cloud Computing,” 2018 IEEE 11th International Conference on Cloud Computing (CLOUD)</li>
+		</ul>
+
+		<!-- <h3>Other relevant experience</h3>
+		<ul>
+			<li>Summer Accelerator School, Seoul National University, South, Korea, August 2018</li>
+			<ul>
+				<li>Learned the basics of accelerators, OpenCL, CUDA programming, and
+optimization techniques for accelerators</li>
+			</ul>
+
+			<li><b>UROP in UC Irvine, LA, USA, December 2017 ~ February 2018</b></li>
+			<ul>
+				<li>UROP(Undergraduate Research Opportunities Program) at the University of California, Irvine.</li>
+				<li>Team Project - Stanford Parser Analyze Sentences and Tree Similarity <a href='https://docs.google.com/presentation/d/1thaVUe1AJXHzA_Sr1ZsDIALL8PkUm57DuSTufkJS1nM/edit?usp=sharing'>ppt</a></li>
+				<li>Term Project - Deep Learning Workload in Serverless Computing <a href='https://docs.google.com/presentation/d/1bg9-4COa8sfa7E60knR37NNdtw6x2EEOrlnStvOwW1s/edit?usp=sharing'>ppt</a> <a href='https://github.com/KimJeongChul/serverless_dnn_workload/tree/master/model_prediction'>github</a></li>
+			</ul>
+			<li>Korea ICT Volunteer World Friends, Ocnita, Moldova, June 2014 - September 2014</li>
+			<ul>
+				<li>World Friends Korea is the new name of the Korean government's overseas volunteer group that aims at helping people around the world.</li>
+			</ul>
+		</ul> -->
+
+		<!-- <h3>Teaching experience</h3>
+		<ul>
+			<li>Kookmin University, Seoul, South Korea</li>
+			<ul>
+				<li>Computer programming teaching assistant, March 2016-December 2019</li>
+				<li>Assisted professor with teaching incoming freshmen Python, JavaScript,
+and MS Excel</li>
+			</ul>
+
+			<li><b>Samsung Architect Training Course, Gyeonngi-do, South Korea</b></li>
+			<ul>
+				<li>(Cloud) Assistant, April 2018, July 2019</li>
+				<li>Assisted professor with helping Samsung developers learn Docker Container, Amazon Web Services(VPC, AutoScaling, CloudFront, CloudFormation, SQS), Hadoop, Hive, and MonogDB</li>
+			</ul>
+
+			<li><b>Samsung Cloud Server Advanced Course, Gyeonngi-do, South Korea</b></li>
+			<ul>
+				<li>(Cloud) Assistant, February 2018, May 2018, October 2018</li>
+				<li>Assisted professor with helping Samsung developers learn Container, Amazon Web Services(Lambda, S3, DynamoDb, SNS, API GateWay), Hadoop, Hive, and MonogDB</li>
+			</ul>
+		</ul> -->
+
+<!-- 		<h3>Attend Conference</h3>
+		<ul>
+			<li>IEEE ICAC 2019, Umea, Sweden, June 2019</li>
+			<li>IEEE BIGDATA 2018, Seattle, WA, USA Dec 2018</li>
+			<li>ACM International Conference on WSDM(Web Search and Data Mining) 2017, LA, USA, Jan 2018</li>
+		</ul> -->
+
+		<h3>Technical skills</h3>
+		<ul>
+			<li>Programming Languages: Python, Scala</li>
+			<li>Platforms: Linux, AWS, Docker, Spark, Hadoop, Kubernetes</li>
+		</ul>
+
+	</li>
+	{%- endfor -%}
+</ul>
+{%- endif -%}
+
