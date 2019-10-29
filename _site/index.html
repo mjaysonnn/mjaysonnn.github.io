@@ -35,12 +35,12 @@ var slideSmartHubotIndex = 1;
 function firstImageShow() {
 	var first = document.getElementsByClassName("first");
 	for (i = 0; i < first.length++; i++) {
-		first[i].style.display = "block"; 
+		first[i].style.display = "block";
 	}
 	autoShowSmartHubotSlides();
 	autoShowSmartMirrorSlides();
 }
-	
+
 setTimeout(firstImageShow, 100);
 
 function plusSmartMirrorSlides(n) {
@@ -50,8 +50,8 @@ function plusSmartMirrorSlides(n) {
 // Thumbnail image controls
 function currentSmartMirrorSlide(n) {
   showSlides("smart-mirror", slideSmartMirrorIndex = n);
-}	
-	
+}
+
 function plusSmartHubotSlides(n) {
   showSlides("smart-hubot", slideSmartHubotIndex += n);
 }
@@ -70,29 +70,29 @@ function showSlides(classname, n) {
   }else {
 	  slideIndex = slideSmartMirrorIndex;
   }
-  if (n > slides.length) {slideIndex = 1} 
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
+      slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block"; 
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-	
+
 function autoShowSmartHubotSlides() {
 	var i;
 	var slides = document.getElementsByClassName("smart-hubot");
 	var dots = document.getElementsByClassName("smart-hubot-dot");
 	for (i = 0; i < slides.length; i++) {
-	  slides[i].style.display = "none"; 
+	  slides[i].style.display = "none";
 	}
   	for (i = 0; i < dots.length; i++) {
 		dots[i].className = dots[i].className.replace(" active", "");
  	}
-	if (slideSmartHubotIndex > slides.length) {slideSmartHubotIndex = 1} 
+	if (slideSmartHubotIndex > slides.length) {slideSmartHubotIndex = 1}
 	slides[slideSmartHubotIndex-1].style.display = "block";
 	dots[slideSmartHubotIndex-1].className += " active";
 	slideSmartHubotIndex++;
@@ -104,18 +104,18 @@ function autoShowSmartMirrorSlides() {
 	var slides = document.getElementsByClassName("smart-mirror");
 	var dots = document.getElementsByClassName("smart-mirror-dot");
 	for (i = 0; i < slides.length; i++) {
-	  slides[i].style.display = "none"; 
+	  slides[i].style.display = "none";
 	}
   	for (i = 0; i < dots.length; i++) {
 		dots[i].className = dots[i].className.replace(" active", "");
  	}
-	if (slideSmartMirrorIndex > slides.length) {slideSmartMirrorIndex = 1} 
+	if (slideSmartMirrorIndex > slides.length) {slideSmartMirrorIndex = 1}
 	slides[slideSmartMirrorIndex-1].style.display = "block";
 	dots[slideSmartMirrorIndex-1].className += " active";
 	slideSmartMirrorIndex++;
 	setTimeout(autoShowSmartMirrorSlides, 3000); // Change image every 2.5 seconds
-}	
-	
+}
+
 </script></head>
 <body>
 	<main class="container">
@@ -131,11 +131,11 @@ function autoShowSmartMirrorSlides() {
 			+1 814-826-5993
 			<p></p>
 			<i class="material-icons">email</i>
-			mjson@psu.edu
+			mjson dot psu.edu
 			<p>&copy; 2019</p>
 		</section>
 		<section class="content">
-			
+
 <ul class="posts"><li>
 		<h2 class="post-title">Myungjun Son</h2>
 		<p>He is a Research Assistant in the Computer Science and Engineering Department at the Pennsylvania State University. His research interests involve cloud computing, serverless computing, bigdata platforms and large-scale distributed computing resource manangement. <a href="/assets/cv/MyungjunSon-CV.pdf">CV</a>
