@@ -155,28 +155,5 @@ publications:
       authors: Myungjun Son, Shruti Mohanty, Jashwant Raj Gunasekaran, Aman Jain, Mahmut Kandemir, George Kesidis, Bhuvan Urgaonkar
       conference: The 22nd IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID 2022) (Acceptance Rate - 24%) 
 
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Core Expertise - Distributed Systems, Cloud Computing, High-Performance Computing (HPC), Machine Learning
-        level: 100%
-
-      - name: Programming Languages - Python, C, C++, SQL, Bash
-        level: 95%
-
-      - name: Cloud & Infrastructure - AWS (EC2, S3, Lambda), Docker, Kubernetes, ParallelCluster, Slurm, CloudFormation, Terraform, Ansible
-        level: 90%
-
-      - name: Distributed Systems & HPC - ZeroMQ, Mercury, gRPC, MPI, DAOS, Microservices, ETL Pipelines, Parallel I/O
-        level: 90%
-
-      - name: Machine Learning & Analytics - TensorFlow, PyTorch, Spark, Federated Learning, Flower
-        level: 85%
-
-      - name: Development & Monitoring - FastAPI, Git, Prometheus, Grafana, Jaeger, eBPF
-        level: 85%
-
-
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
