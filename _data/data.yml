@@ -230,21 +230,6 @@ publications:
       authors: Myungjun Son, Shruti Mohanty, Jashwant Raj Gunasekaran, Aman Jain, Mahmut Kandemir, George Kesidis, Bhuvan Urgaonkar
       conference: The 22nd IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID 2022) (Acceptance Rate - 24%) 
 
-    - title: "Modeling Distributed Matrix Multiplication Performance on a Scale-out Cloud Environment for Data Mining Jobs"
-      link: "https://pennstateoffice365-my.sharepoint.com/:b:/g/personal/mjs8014_psu_edu/ETN-crccg85NrChcNaqrPhcBc3t5Bv8jnYZMVmJz7QgjIw?e=mc4671"
-      authors: Jeongchul Kim, Myungjun Son, Kyungyong Lee
-      conference: IEEE Transactions on Cloud Computing 2019
-
-    - title: Distributed Matrix Multiplication Performance Estimator for Machine Learning Jobs in Cloud Computing
-      link: "https://pennstateoffice365-my.sharepoint.com/:b:/g/personal/mjs8014_psu_edu/EavMyFtKF_dDrTfKMixyy6YBI1BsPreah6f3NSrz-n8O3Q?e=iKuIqp"
-      authors: Myungjun Son and Kyungyong Lee
-      conference: 2018 IEEE 11th International Conference on Cloud Computing (CLOUD)
-
-    - title: DeepSpotCloud - Leveraging Cross-Region GPU Spot Instances for Deep Learning
-      link: "https://pennstateoffice365-my.sharepoint.com/:b:/g/personal/mjs8014_psu_edu/ESap9uuckPRHk2uZl9Qcoo4BMcUl6vtaVAyoFr-MHYyUnw?e=N8sJzv"
-      authors: Kyungyong Lee and Myungjun Son
-      conference: 2017 IEEE 10th International Conference on Cloud Computing (CLOUD) (Acceptance Rate - 19%)
-
 skills:
     title: Skills &amp; Proficiency
 
