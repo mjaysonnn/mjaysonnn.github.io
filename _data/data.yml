@@ -131,7 +131,11 @@ publications:
   #   You can list your publications in this section. Lorem ipsum dolor sit
   #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
   #   bibendum fringilla a eu lectus.
-  papers:            
+  papers:
+    - title: SpotFed - Cost-Efficient Federated Learning with Spot Instance Compensation
+      authors: Myungjun Son, Woohyeon Baek, Mehrdad Mahdavi, Mahmut Kandemir
+      conference: FL-RCE 2026 Workshop on Federated Learning for Resource Constraint Environments (Co-located with IEEE/ACM CCGrid 2026)
+            
     - title: SpotVerse - Enhancing Workflow Efficiency with Multi-Region Spot Instances for Galaxy and Beyond
       link: "https://pennstateoffice365-my.sharepoint.com/:b:/g/personal/mjs8014_psu_edu/EVjQ42xD_3ZPmrVnmrWoe7UBdnJnsORTM2miEAaTp6jE9Q?e=W6UFDc"
       authors: Myungjun Son, Gulsum Gudukbay, Mahmut Kandemir
