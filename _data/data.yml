@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Myungjun (MJ) Son
-    tagline: Research Engineer
+    tagline: Research Engineer III
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -52,7 +52,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I'm a Research Engineer in Computer Science specializing in distributed systems and cloud optimization. My work focuses on building cost-efficient, high-performance solutions for cloud-native environments using Python, machine learning frameworks, and HPC technologies. I'm passionate about solving complex problems at the intersection of systems research and practical engineering.
+      I'm a Research Engineer III in Computer Science specializing in distributed systems and cloud optimization. My work focuses on building cost-efficient, high-performance solutions for cloud-native environments using Python, machine learning frameworks, and HPC technologies. I'm passionate about solving complex problems at the intersection of systems research and practical engineering.
       
       [Google Scholar](https://scholar.google.com/citations?hl=en&user=QNswWa8AAAAJ)
 
@@ -81,7 +81,7 @@ experiences:
     title: Work Experience
     info:
 
-      - role: Research Engineer
+      - role: Research Engineer III
         time: Mar 2026 - Present
         company: Hewlett Packard Enterprise (Systems Architecture Lab), Milpitas, CA, USA
         details: |
