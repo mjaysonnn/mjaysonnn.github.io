@@ -83,21 +83,21 @@ experiences:
 
       - role: Research Engineer III
         time: Mar 2026 - Present
-        company: Hewlett Packard Enterprise (Systems Architecture Lab), Milpitas, CA, USA
-        details: |
-          - Conducting advanced research in distributed systems and high-performance computing at Hewlett Packard Enterprise Labs.
+        company: Systems Architecture Lab, Hewlett Packard Enterprise, Milpitas, CA, USA
+        # details: |
+        #   - Conducting advanced research in distributed systems and high-performance computing at Hewlett Packard Enterprise Labs.
 
       - role: Postdoctoral Researcher
         time: Oct 2025 - Mar 2026
-        company: Hewlett Packard Enterprise, Milpitas, CA, USA
-        details: |
-          - Conducted advanced research in distributed systems and high-performance computing at Hewlett Packard Enterprise Labs.
+        company: Systems Architecture Lab, Hewlett Packard Enterprise, Milpitas, CA, USA
+        # details: |
+        #   - Conducted advanced research in distributed systems and high-performance computing at Hewlett Packard Enterprise Labs.
 
       - role: Research Associate Intern
         time: Jun 2025 - Sep 2025
-        company: Hewlett Packard Enterprise, Milpitas, CA, USA
-        details: |
-          - Collaborated with Hewlett Packard Enterprise Labs' Systems Architecture Lab to advance distributed systems research and development.
+        company: Systems Architecture Lab, Hewlett Packard Enterprise, Milpitas, CA, USA
+        # details: |
+        #   - Collaborated with Hewlett Packard Enterprise Labs' Systems Architecture Lab to advance distributed systems research and development.
           
       - role: Research Associate Intern
         time: May 2024 - Aug 2024
