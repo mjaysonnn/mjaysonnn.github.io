@@ -101,9 +101,8 @@ experiences:
           
       - role: Research Associate Intern
         time: May 2024 - Aug 2024
-        company: Hewlett Packard Enterprise, Milpitas, CA, USA
+        company: Systems Architecture Lab, Hewlett Packard Enterprise, Milpitas, CA, USA
         details: |
-          - Engineered performance and scalability enhancements for distributed HPC systems in collaboration with Hewlett Packard Enterprise Labs.
           - Designed and implemented a communication framework for distributed HPC systems using ZeroMQ and Mercury in C, improving data handling efficiency across nodes.
           
       - role: R&D Summer Intern
