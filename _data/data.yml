@@ -81,17 +81,11 @@ experiences:
     title: Work Experience
     info:
 
-      - role: Research Engineer III
-        time: Mar 2025 - Present
+      - role: Research Engineer III (formerly Postdoctoral Researcher)
+        time: Oct 2025 - Present
         company: Systems Architecture Lab, Hewlett Packard Enterprise, Milpitas, CA, USA
         # details: |
         #   - Conducting advanced research in distributed systems and high-performance computing at Hewlett Packard Enterprise Labs.
-
-      - role: Postdoctoral Researcher
-        time: Oct 2025 - Mar 2026
-        company: Systems Architecture Lab, Hewlett Packard Enterprise, Milpitas, CA, USA
-        # details: |
-        #   - Conducted advanced research in distributed systems and high-performance computing at Hewlett Packard Enterprise Labs.
 
       - role: Research Associate Intern
         time: Jun 2025 - Sep 2025
