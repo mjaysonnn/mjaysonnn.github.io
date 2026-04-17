@@ -71,6 +71,8 @@ education:
       - degree: Ph.D. in Computer Science
         university: The Pennsylvania State University, USA
         time: 2019 - 2025
+        details: |
+          Advisor: [Dr. Mahmut Kandemir](http://www.cse.psu.edu/hpcl/kandemir/index.html)
 
       - degree: M.S. in Computer Science
         university: Kookmin University, South Korea
